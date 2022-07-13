@@ -1,0 +1,11 @@
+<h1>ENTER USER VALUES AND GET THE COMPUTER VALUES</h1>
+<input [(ngModel)]="myProperty" /><br /><br />
+<button (click)="clickEvent()">values</button>
+
+<div *ngIf="isShown" class="row container-fluid" id="divshow">
+  <h2>USER VALUE</h2>
+  <h2>{{ myProperty }}</h2>
+  <h2>COMPUTER VALUE</h2>
+  <input [(ngModel)]="values" />
+  <div id="containor"></div>
+</div>
