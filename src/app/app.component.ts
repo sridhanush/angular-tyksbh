@@ -36,7 +36,7 @@ export class AppComponent {
       if (shuffle[i] == myProperty[i]) {
         displayOutput += '+';
       } else {
-        displayOutput += '-';
+        displayOutput += '-';lk
       }
     }
     this.output = displayOutput;
